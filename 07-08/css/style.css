@@ -1,0 +1,32 @@
+/*punto 7 y 8*/
+h1{
+    font-size: medium;
+    color: blue;
+}
+
+.p7_nav{
+    background-color: rgb(196, 69, 196);
+}
+.p7_nav ul{
+    display: inline-flex;
+}
+.p7_nav li{
+    padding: 10px;
+    list-style: none;
+}
+.p7_nav li:hover{
+    background-color: blue;
+}
+
+.p7_nav a:hover{
+    color:red;
+}
+.p7_nav a{
+    color: white;
+}
+
+#footer_nombre{
+    font-size: 15px;
+    color: brown;
+    font-family: Cambria; 
+}

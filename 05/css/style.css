@@ -1,0 +1,42 @@
+body{
+    background-color: rgba(255, 237, 167, 0.993);
+    position: relative;
+    left: 28%;
+    margin: center;
+    text-align: left;
+}
+
+#verde{
+    text-decoration:underline;
+    color: rgb(9, 256, 9);
+}
+
+#rojo{
+    color: rgb(255, 0, 0);
+}
+
+#negro{
+    text-decoration:underline overline;
+}
+
+#grande{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+#azul{
+    color: rgb(0, 0, 255);
+    font-weight: bolder;
+}
+
+#rojosubrayado{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(255, 0, 0);
+}
+
+#footer_nombre{
+    font-size: 15px;
+    color: brown;
+    font-family: Helvetica; 
+}

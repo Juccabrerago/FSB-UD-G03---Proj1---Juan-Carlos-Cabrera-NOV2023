@@ -1,0 +1,716 @@
+/* Se establece el fondo de pantalla ajustado  para cualquier navegador */
+body{
+	background: url("imagenes/fondo.jpg") no-repeat center center fixed;	
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+
+/* Se agregan las fuentes para que sean tenidas en cuenta por el navegador */
+
+@font-face
+{
+	font-family: 'delicate'; src: url(fonts/Parisienne-Regular.ttf);    
+}
+
+/* Se coloca el titulo a la página */
+#titulopral
+{
+	height: 30px;
+    position: relative;    
+}
+
+/* Se centra el título, con la fuente 'delicate' */
+#France
+{	
+    position: relative;	
+	text-align: center;
+	font-size: 80px;
+    font-family: 'delicate';
+    top: -70px;
+    color:gold;
+    float: center;
+    margin: auto;
+}
+
+/* Se agrega el emblema nacional de Francia con sus respectivos parámetros como la alineacion al centro */
+#emblema {
+	height: 65px;
+	position: relative;
+    text-align: center;
+    font-size: 60px;	
+	font-family: 'delicate';	
+	top: -25px;
+    color: skyblue;  
+    }
+
+/*Caracteristicas para los titulos de cada pagina o apartado*/
+h2
+{
+    font-family: Monotype corsiva;
+	color: gold;
+    font-size: 60px;
+	font-weight: bold;
+	text-shadow: 1px 1px #00CED1;
+	text-align: center;
+	margin: auto;
+	margin-top: 40px;
+    margin-bottom:10px;
+    height: 80px;
+    top: 10px;    
+}
+
+h3
+{
+    font-family: Georgia;
+	color: #FFFACD;
+	font-size: 25px;
+	font-weight: normal;
+	text-shadow: 1px 1px #00CED1;
+	text-align: left;
+	margin:0px 0px 0px 70px;
+	margin-bottom:10px;
+}
+
+/* En los links o vinculos asociados, estarán resaltados en un color y al colocar el cursor sobre este, cambia a otro color*/
+a:link {
+	color: orange;
+	text-decoration:none;
+}
+
+a:visited{
+    color: orange;
+}
+
+a:hover {
+	color: red;
+}
+
+
+/* Se define el espacio de los botones */
+#botones{	
+	height: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Se define el estilo de boton para el menú principal, fuente y color, junto con el scroll */
+#botones_estilo
+{
+	border: 10px #FF0000; 	
+	padding: 4px;
+    font-weight: bold;
+    font-family: cursive;
+	background-color: red;
+    border: 3px solid blue;
+    color: white; 			
+	text-decoration: none; 	
+	border-radius: 5px; 
+    font-size: 15px;
+    margin: auto;
+    border-style: outset;
+    cursor: pointer;    
+}
+
+/* Cambio de estilo al colocar el cursor sobre los botones */
+#botones_estilo:hover 
+{
+	text-shadow: 1px 1px #000000;
+	background-color: white;
+    color: red; 
+}  
+
+
+
+/* --------------------------------- */
+
+/* Estilo página index */
+
+/* Adicion del estilo al párrafo */
+#texto1{
+	font-size: 25px;
+    text-align: justify;
+    color: beige;
+    font-family:sans-serif;
+    border: 10px solid red;
+	background-color: navy;
+    position: relative;
+	font-weight: normal;
+	text-align: justify;
+	padding-right: 60px;
+	padding-left: 60px;
+    margin: 0px 20px;    
+}
+
+/* Diseño de la imagen:index*/
+#torreeiffel 
+{
+	height: 510px;
+	text-align: center;
+    margin: auto;
+}
+
+/* --------------------------------- */
+
+/* Estilo página clima y geografía */
+
+/* Lineamientos para el texto */
+#texto2{
+	font-size: 27px;
+    text-align: justify;
+    color: beige;
+    font-family: Garamond;
+    position: relative;
+	font-weight: normal;
+	padding: 5px;
+    margin: 0px 70px 0px 70px;    
+}
+
+/* Presentacion de la topografia a la derecha */
+
+#topografia 
+{
+	text-align: center;
+    position: relative;
+    margin: auto;
+    padding: 5px;
+}
+
+/* Lineamientos para los parrafos siguientes */
+#texto3{
+	font-size: 27px;
+    text-align: justify;
+    color: beige;
+    font-family: Garamond;
+    position: relative;
+	font-weight: normal;
+	padding: 5px;
+    margin: 0px 70px 0px 70px;   
+}
+
+/* Se centra la imagen del paisaje Bora-Bora */
+#fotobora 
+{
+	text-align: center;
+    position: relative;
+    margin: auto;
+}
+
+/* Se agrega el estilo para la tabla resumen y el parrafo con los mismos colores de tabla para agregar una lista sin orden */
+#tabla1 
+{
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+
+#tabla1
+th
+{
+    width: 500px;
+    background-color: chocolate;
+	color: khaki;
+	text-align: center;
+	font-size: 20px;
+	border-style:outset;
+	border-size: 3px;
+	border-color: khaki;
+}
+td
+{
+   width: 500px;
+   text-align: center;
+   font-size: 20px;   
+   background-color: khaki;
+   color: chocolate;
+   border-style:outset;
+   border: 1px solid chocolate;
+}
+
+/* Se crea un encabezado de tabla con el fin de usarlo como un nuevo menú que permite navegar dentro de la página*/
+
+#tabla2 
+{
+	margin: auto;
+    padding: 0px 20px 0px 20px;
+    width: 500px;
+}
+#tabla2
+th
+{
+    background-color: lemonchiffon;
+	text-align: center;
+	font-size: 20px;
+	border-style:outset;
+	border-size:2px;
+	border-color: crimson;
+    cursor: pointer;
+    width:150px;
+    height: 5px;
+	margin: auto;
+}
+/* ---------------------------------- */
+
+/* Estilo página Inicio (París), los textos se ajustaron con el formato de texto3 */
+
+/*  */
+/* Imagen ubicada en el centro de la pagina*/
+#paris
+{
+	text-align: center;
+    margin: 0px 95px 0px 95px;
+}
+
+/* Se ajustan imagenes a la derecha*/
+
+#imagenes 
+{
+    text-align: right;
+    position: relative;
+    padding-right: 80px;
+}
+
+/* Se ajustan los textos sobre las ciudades a la izquierda */
+#textociudades
+{
+	font-size: 23px;
+    text-align: justify;
+    color: beige;
+    font-family: cursive;
+    position: relative;
+	width:600px;
+	font-weight: normal;
+	padding-right: 60px;
+	padding-left: 60px;
+    margin: 0px 0px 0px 80px;  
+    float: left;
+}
+
+/* Se ajustan las referencias de las imagenes a la derecha */
+ 
+#textoreferencias
+{
+	font-size: 24px;
+    color: deeppink;
+    font-family: cursive;
+    position: relative;
+	font-weight: normal;
+	text-align: right;
+    margin: auto;
+    padding-right: 120px;    
+}
+
+/* ---------------------------------- */
+
+/* Estilo pagina historia francesa */
+
+/* Ajuste del tamaño de letra en los parrafos, ajuste automatico para el redimensionamiento de la ventana del navegador e imagenes */
+
+#texto4
+{
+    font-size: 25px;
+    text-align: justify;
+    color: beige;
+    font-family: cursive;
+    position: relative;
+	font-weight: normal;
+	margin: auto;   
+}
+#imageneshistoria
+{
+    text-align: center;
+    margin: 0px 95px 0px 95px;
+    font-size: 20px;
+    font-family: Verdana;
+    color: gold;
+}
+
+
+/* ---------------------------------- */
+
+/* Estilo pagina personajes, Lugares emblematicos, creditos y mapa de sitio. */
+
+/* Ajuste del tamaño de letra en los parrafos, ajuste automatico para el redimensionamiento de la ventana del navegador e imagenes */
+
+#texto4
+{
+    width:900px;
+    font-size: 25px;
+    text-align: justify;
+    color: beige;
+    font-family: cursive;
+    position: relative;
+	font-weight: normal;
+	padding-right: 60px;
+	padding-left: 60px;
+    margin: auto;   
+}
+
+#textomapa
+{
+    width:900px;
+    height: 995px;
+    font-size: 25px;
+    text-align: justify;
+    color: beige;
+    font-family: cursive;
+    position: relative;
+	font-weight: normal;
+	padding-right: 60px;
+	padding-left: 60px;
+    margin: auto;   
+}
+
+#subtitulo
+{
+    width:900px;
+    font-style: italic;
+    font-size: 25px;
+    text-align: left;
+    color: burlywood;
+    font-family: cursive;
+    position: relative;
+	font-weight: bolder;
+	padding-right: 60px;
+	padding-left: 60px;
+    margin: auto;   
+}
+
+#personajes
+{
+    text-align: center;
+    margin: 0px 95px 0px 95px;
+    font-size: 20px;
+    font-family: Verdana;
+    color: gold;
+}
+
+#tabla4 
+{
+	width: 600px;
+    margin: auto;
+    padding: 0px 10px 0px 10px;
+}
+#tabla4
+th
+{
+    background-color: lemonchiffon;
+	color: lavenderblush;
+	text-align: center;
+	font-size: 20px;
+	border-style: outset;
+	border-size: 2px;
+	border-color: darkred;
+    cursor: pointer;
+    height: 10px;
+}
+
+#creditos 
+{
+    position: relative;
+	margin: auto;
+	top: -15px;
+	width: 1000px;
+}
+
+#creditos
+
+td
+{
+   width: 1000px;
+   text-align: left;
+   font-weight: normal;
+   font-size: 20px;
+   padding: 0px 10px;
+   background-color: khaki;
+   color: chocolate;
+   border-style: outset;
+   border: 10px solid chocolate;
+}
+
+ul 
+{
+	list-style-type: square;
+}
+
+/* ---------------------------------- */
+
+/* ----------------ESTILO PARA MAPA INTERACTIVO----------------------- */
+
+/* ----DESPLIEGUE DEL ESCENARIO LLAMANDO EL ARCHIVO MAPA.JS----------- */
+
+.panorama{
+    box-shadow: 10px 15px 15px 0 rgba(0, 0, 0, 0.4);
+    margin: auto;
+    width: 780px; 
+}
+
+/* --------------------------DISEÑO DE GALERÍA CON HTML-------------------------- */
+
+/* se agrupan parámetros para los botones con el fin de no ocupar mas espacio en la memoria */
+
+    .uno, .dos, .tres, .cuatro, .cinco, .seis
+{
+    border: 1px solid gray;
+    width: 145px;
+    height: 50px;  
+    float: left;
+    overflow: hidden; /* -Aisla los botones de las imágenes, solo se requiere ubicar el puntero sobre las imagenes para que despliegue las fotos de la galeria- */
+    margin-bottom: 50px;   
+    
+} 
+
+ .uno{
+    background: url(imagenes/b1.jpg) no-repeat; 
+    background-position: center;
+    /* -Ubica el boton centrado sobre los cuadrados del menú- */   
+}
+
+ .dos{
+    background: url(imagenes/b2.jpg) no-repeat; 
+    background-position: center;
+} 
+ .tres{
+    background: url(imagenes/b3.jpg) no-repeat; 
+    background-position: center;
+}
+ .cuatro{
+    background: url(imagenes/b4.jpg) no-repeat; 
+    background-position: center;
+}
+.cinco{
+    background: url(imagenes/b5.jpg) no-repeat; 
+    background-position: center;
+}
+.seis{
+    background: url(imagenes/b6.jpg) no-repeat; 
+    background-position: center;
+}
+
+/* -el caracter " ~ " hace que todos los elementos que esten relacionados con .principal, se modificarán con las siguientes caracteristicas- */
+/* -Para cada boton (sitio turistico) se asigna su respectiva foto y descripción. Pueden visualizarse al ubicar el puntero sobre el boton correspondiente */
+
+ .uno:hover ~ .principal1{
+    height: 550px;    
+} 
+
+ .dos:hover ~ .principal2{
+    height: 550px;    
+} 
+
+ .tres:hover ~ .principal3{
+    height: 550px;        
+} 
+
+ .cuatro:hover ~ .principal4{
+    height: 550px;      
+} 
+
+.cinco:hover ~ .principal5{
+    height: 550px;    
+} 
+
+.seis:hover ~ .principal6{
+    height: 550px;      
+} 
+
+ .principal1, .principal2, .principal3, .principal4, .principal5, .principal6 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 20px;
+    width: 500px;
+    height: 0px;
+    overflow: hidden; /* -Aisla los botones de las imágenes- */
+    margin: auto;
+    -webkit-transition: 2s; /* Muestra la foto con efecto deslizante. El prefijo "-webkit-" se utiliza para que sea compatible con el navegador Google Chrome y pueda verse el efecto de persiana*/
+    -moz-transition: 2s; /* El prefijo "-moz-" se utiliza para que sea compatible con el navegador Mozilla Firefox y pueda verse el efecto de persiana */
+    -o-transition: 2s; /* El prefijo "-o-" se utiliza para que sea compatible con el navegador Opera y pueda verse el efecto de persiana */
+    -ms-transition: 2s; /* El prefijo "-ms-" se utiliza para que sea compatible con el navegador Internet Explorer/Microsoft Edge y pueda verse el efecto de persiana*/
+}
+
+
+/* SE AJUSTA EL TAMAÑO DEL TITULO CON PARAMETROS ADECUADOS PARA DIFERENTES DISPOSITIVOS CON SUS RESPECTIVAS MEDIDAS */
+@media only screen and (max-width: 1090px) 
+    {
+
+        #France 
+        {
+            font-size: 60px;
+            top: -40px;
+        }
+        #emblema
+        {
+            font-size: 50px;
+        }
+        h2
+        {
+            font-size: 50px;
+        }
+        #botones
+        {	
+            height: 20px;
+            padding: 6px;
+        }
+
+        #botones_estilo
+        {
+            border: 8px #FF0000; 	
+            border-radius: 4px; 
+            font-size: 13px;
+            border: 2px solid blue;
+        }
+        
+        #texto1, #texto2, #texto3, #textociudades, #textoreferencias, #texto4, #textomapa, #subtitulo, #imageneshistoria 
+        {
+            font-size: 20px;
+        }
+        
+        #personajes, #creditos, .principal1, .principal2, .principal3, .principal4, .principal5, .principal6
+        {
+            font-size: 17px;
+        }
+        
+    }
+
+@media only screen and (max-width: 890px) 
+    {
+
+        #France 
+        {
+            font-size: 45px;
+            top: -30px;
+        }
+        #emblema
+        {
+            font-size: 40px;
+            height: 35px;
+        }
+        h2
+        {
+            font-size: 40px;
+            margin-top: 25px;
+        }
+        #botones
+        {	
+            height: 20px;
+            padding: 6px;
+        }
+
+        #botones_estilo
+        {
+            border: 6px #FF0000; 	
+            border-radius: 4px; 
+            font-size: 11px;
+            border: 2px solid blue;
+            float: left;
+        }
+        
+        #texto1, #texto2, #texto3, #textociudades, #textoreferencias, #texto4, #textomapa, #subtitulo, #imageneshistoria 
+        {
+            font-size: 17px;
+        }
+        
+        #personajes, #creditos, .principal1, .principal2, .principal3, .principal4, .principal5, .principal6
+        {
+            font-size: 14px;
+        }
+    }
+
+@media only screen and (max-width: 720px) 
+    {
+	#France 
+        {
+            font-size: 35px;
+            top: -10px;
+        }
+        #emblema
+        {
+            font-size: 32px;
+            height: 35px;
+        }
+        h2
+        {
+            font-size: 30px;
+            margin-top: 15px;
+        }
+        #botones
+        {	
+            height: 20px;
+            padding: 6px;
+        }
+
+        #botones_estilo
+        {
+            background-color: darkblue;
+            border: 3px solid red;
+            color: white;            
+            border-radius: 4px; 
+            font-size: 12px;
+            float: left;
+        }
+        
+        #texto1, #texto2, #texto3, #textociudades, #textoreferencias, #texto4, #textomapa, #subtitulo 
+        {
+            font-size: 14px;
+        }
+        
+        #imageneshistoria{
+            font-size: 10px;
+        } 
+        #personajes, #creditos, .principal1, .principal2, .principal3, .principal4, .principal5, .principal6
+        {
+            font-size: 11px;
+        }
+    
+    }
+	
+@media only screen and (max-width: 500px) 
+{
+        #France 
+        {
+            font-size: 25px;
+            top: -10px;
+        }
+        #emblema
+        {
+            font-size: 25px;
+            height: 35px;
+        }
+        h2
+        {
+            font-size: 20px;
+            margin-top: 30px;
+            height: 20px;
+        }
+        #botones
+        {	
+            height: 20px;
+            padding: 6px;
+        }
+
+        #botones_estilo
+        {
+            background-color: darkblue;
+            border: 3px solid red;
+            color: white;            
+            border-radius: 4px; 
+            font-size: 8px;
+            float: left;
+        }
+    
+    #texto1, #texto2, #texto3, #textociudades, #textoreferencias, #texto4, #textomapa, #subtitulo, #imageneshistoria 
+        {
+            font-size: 11px;
+        }
+        
+        #personajes, #creditos, .principal1, .principal2, .principal3, .principal4, .principal5, .principal6
+        {
+            font-size: 8px;
+        }
+}
+
+
+
+
+

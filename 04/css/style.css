@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    margin: auto;
+    text-align: center;
+}
+
+
+#letraazul{
+   color: #0000ff;
+
+}
+#letrarojo{
+    color: #ff0000;
+    
+}
+#nombre{
+    color: rgb(201, 158, 18);
+}
